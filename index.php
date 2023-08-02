@@ -97,7 +97,7 @@
             <button class="w3-button w3-light-grey w3-padding-large w3-section w3-hide-small" onclick="document.getElementById('download').style.display='block'">
                 <i class="fa fa-download"></i> Download Application
             </button>
-            <p>Available for <i class="fa fa-android w3-xlarge w3-text-green"></i> <i class="fa fa-apple w3-xlarge"></i> <i class="fa fa-windows w3-xlarge w3-text-blue"></i></p>
+            <p>Available for <i class="fa fa-android w3-xlarge w3-text-green"></i> <i class="fa fa-apple w3-xlarge"></i> <i class="fa fa-windows w3-xlarge w3-text-blue"></i> <i class="fa fa-linux w3-xlarge w3-text-brown"></i></p>
             </div>
             <div class="w3-col l4 m6">
             <img src="https://www.w3schools.com/w3images/img_app.jpg" class="w3-image w3-right w3-hide-small" width="335" height="471">
