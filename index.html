@@ -260,7 +260,12 @@
                 <i class="fa fa-linkedin w3-hover-opacity"></i>
             </div>       
             <br/><br/><br/>
-            <h2 class="w3-container footer w3-light-green">&copy; <?php echo $year_string; ?> by <a href="https://presspage.info" target="_blank" style="text-decoration:none;">PressPage Entertainment Inc.</a> DBA <a href="https://pingleware.work" target="_blank" style="text-decoration:none;">PINGLEWARE</a></h2>
+            <h2 class="w3-container footer w3-light-green">&copy; <span id="year"></span> by <a href="https://presspage-entertainment.biz" target="_blank" style="text-decoration:none;">PressPage Entertainment Inc.</a> DBA <a href="https://pingleware.work" target="_blank" style="text-decoration:none;">PINGLEWARE</a></h2>
         </footer>
+        <script>
+            window.onload = function() {
+                document.getElementById("year").innerHTML = `2018-${new Date().getFullYear()}`;
+            }
+        </script>
     </body>
 </html>
